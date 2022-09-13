@@ -20,6 +20,12 @@ All that should be required to run is setting the data and script directories ma
 Running time of script should be <2 minutes and a complete version of `O2_global_totals.xlsx` is provided for comparison.  
 
 ## Reproducing figures from the manuscript
-Figures can be reproduced by running the `fire_window.R` script and can be ran after creating the spreadsheet above, or independently (spreadsheet included). 
 
+Figures can be reproduced by running the `fire_window.R` script and can be ran after creating the spreadsheet above, or independently (spreadsheet included). Plots created are:
 
+1. global forest cover for 20.95% and 35% vol. O2
+2. line plots showing global total/average number of fires, burned area and forest suppression by fire over varying O2 concentrations
+3. global rate of fire spread for 20.95% and 35% vol. O2
+4. global fuel moisture under 35% vol. O2 and global average rate of fire spread for different bands of fuel moisture
+
+In order to run the script, the following `R` packages are required: `ncdf4`,`ggplot2`,`reshape`,``
