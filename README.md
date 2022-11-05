@@ -30,8 +30,6 @@ Figures can be reproduced by running the `fire_window.R` script and can be ran a
 
 In order to run the script, the following `R` packages are required: `ncdf4`,`ggplot2`,`reshape`,`readxl`,`rgdal`,'gridExtra',`colorspace`,`gtable`,`RColorBrewer`& `cowplot`. Running of script should take ~2 minutes and calls on `matrix2df_function.R` and `global_total_function.R` scripts (see file descriptions below).  
 
-Figures which include global maps (1,3 & 4) also require land shapefiles that have been provided in the [ndata/ne_110m_land](data/ne_110m_land) directory but are available from [Natural Earth vector and raster data](https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/).
-
 ## File descriptions
 Filename       | Description
 -------------  | -------------
