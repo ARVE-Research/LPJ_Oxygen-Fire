@@ -1,8 +1,8 @@
 # LPJ_Oxygen-Fire model output and postprocessing code for oxygen-fire simulation experiments for testing the upper limit of the fire window
 
-This repository contains output from simulations performed with the LPJ-LMfire dynamic global vegetation model to investigate the response of vegetation under varying atmospheric oxygen concentrations due to fire. This output and included code were used to create the figures shown in Vitali et al. (in review):
+This repository contains output from simulations performed with the LPJ-LMfire dynamic global vegetation model to investigate the response of vegetation under varying atmospheric oxygen concentrations due to fire. This output and included code were used to create the figures shown in Vitali et al. (2022):
 
-**Vitali, R., Belcher, C. M., Kaplan, J. O., & Watson, A. J. (in review). Increased fire activity under high atmospheric oxygen concentrations is compatible with the presence of forests. *Nature Communications*.**
+**Vitali, R., Belcher, C. M., Kaplan, J. O., & Watson, A. J. (2022). Increased fire activity under high atmospheric oxygen concentrations is compatible with the presence of forests. *Nature Communications*.**
 
 The raw model output (`.nc` files) in this repository are stored using the Git Large File Storage (Git LFS) extension. Cloning the repository therefore requires the user to have `git lfs` installed. More information regarding Git LFS can be found [here](https://git-lfs.github.com).
 
